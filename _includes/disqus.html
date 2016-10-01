@@ -6,7 +6,7 @@ var disqus_config = function () {
 };
 (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = '//{{site.user}}.disqus.com/embed.js';
+    s.src = '//{{site.user}}.disqus.com/embed.js'.replace("-","_");
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
 })();
