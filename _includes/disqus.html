@@ -2,11 +2,7 @@
 <script>
 var disqus_config = function () {
     this.page.url = "http://{{site.domain}}{{page.url}}";
-    this.page.identifier = "{{page.url}}".substring(1) ;//"{{page.id}};
-	if(this.page.indentifier.length == 0)
-	{
-		this.page.indentifier = "index"
-	}
+    this.page.identifier = "{{page.url}}".substring(1) ;
 };
 (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
