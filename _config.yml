@@ -4,5 +4,6 @@ markdown: kramdown
 # Blog Settings
 lang: en
 domain: lobster2012-user.github.io
+user : lobster2012-user
 title: lobster2012-user
 tagline: ':(){:|:&amp;};:'
